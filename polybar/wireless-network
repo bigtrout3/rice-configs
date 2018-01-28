@@ -1,0 +1,13 @@
+type = internal/network
+interface = wlp63s0
+format-connected = <ramp-signal> <label-connected>
+format-disconnected = <label-disconnected>
+label-connected = %essid% %signal%
+label-disconnected = not connected
+
+ramp-signal-0 = 😱
+ramp-signal-1 = 😠
+ramp-signal-2 = 😒
+ramp-signal-3 = 😊
+ramp-signal-4 = 😃
+ramp-signal-5 = 😈

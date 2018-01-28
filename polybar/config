@@ -1,0 +1,42 @@
+[bar/rice]
+monitor = eDP1
+radius = 6.0
+height = 20
+fixed-center = false
+
+line-size = 3
+
+border-size = 4
+border-color = #00000000
+
+padding-left = 0
+padding-right = 2
+
+module-margin-left = 1
+module-margin-right = 2
+
+modules-left = date backlight
+modules-center = text
+modules-right = volume wireless-network battery
+
+font-0 = "Misc Tamsyn:size=14;0"
+font-1 = "EmojiOne Color;0"
+
+[module/date]
+include-file = /home/brandon/.config/polybar/date
+
+[module/backlight]
+include-file = /home/brandon/.config/polybar/backlight
+
+[module/text]
+type = custom/text
+content = Murder, Death, Kill!
+
+[module/volume]
+include-file = /home/brandon/.config/polybar/volume
+
+[module/wireless-network]
+include-file = /home/brandon/.config/polybar/wireless-network
+
+[module/battery]
+include-file = /home/brandon/.config/polybar/battery

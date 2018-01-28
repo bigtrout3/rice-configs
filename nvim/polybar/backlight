@@ -1,0 +1,6 @@
+type = internal/xbacklight
+format = <label> <bar>
+bar-width = 10
+bar-indicator = +
+bar-empty = -
+bar-fill = =

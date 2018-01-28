@@ -1,0 +1,12 @@
+type = internal/battery
+battery = BAT1
+adapter = ACAD
+poll-interval = 5
+format-charging = <label-charging>
+format-discharging = <bar-capacity> <label-discharging>
+
+label-discharging = %time% %percentage%
+bar-capacity-width = 10
+bar-capacity-empty = -
+bar-capacity-fill = =
+bar-capacity-indicator = +

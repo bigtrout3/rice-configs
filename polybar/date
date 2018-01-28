@@ -1,0 +1,6 @@
+type = internal/date
+date = %A %D
+time = %H:%M
+label = %date% %time%
+label-font = 0
+format = 🕓 <label>

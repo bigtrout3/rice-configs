@@ -1,0 +1,12 @@
+#!/bin/sh
+
+bspc monitor -d I II III IV V
+bspc config active_border_color '#d19f34'
+bspc config focused_border_color '#4e7c43'
+bspc config focus_follows_pointer true
+bspc config border_width 5
+
+sxhkd &
+$HOME/.fehbg &
+$HOME/.config/polybar/launch.sh
+
